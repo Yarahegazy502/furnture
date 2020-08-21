@@ -258,5 +258,17 @@ element.style {
         width: 50%;
         
     }
+    .cate{
+        display: none;
+    }
+    footer{
+        height: 470px;
+    }
+    /* .logo{
+        font-size: 30px;
+    }
+    .icons{
+      margin-top: -35px;  
+    } */
 }
 
