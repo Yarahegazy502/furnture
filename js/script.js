@@ -48,16 +48,44 @@ $(document).ready(function(){
     });
     });
 
-    window.onload=function(){
-        $('.slider').slick({
-        autoplay:false,
-        autoplaySpeed:1000,
-        arrows:true,
-        prevArrow:'<button type="button" class="slick-prev  "></button>',
-        nextArrow:'<button type="button" class="slick-next  "></button>',
-        centerMode:true,
-        slidesToShow:1,
-        slidesToScroll:1
-        });
-      };
+    // window.onload=function(){
+    //     $('.slider').slick({
+    //     autoplay:false,
+    //     autoplaySpeed:1000,
+    //     arrows:true,
+    //     prevArrow:'<button type="button" class="slick-prev  "></button>',
+    //     nextArrow:'<button type="button" class="slick-next  "></button>',
+    //     centerMode:true,
+    //     slidesToShow:1,
+    //     slidesToScroll:1
+    //     });
+    //   };
       
+
+       //acrsoul
+
+    $('.slickslider1').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 1,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              arrows: false,
+              centerMode: true,
+              centerPadding: '40px',
+              slidesToShow: 1
+            }
+          }
+        ]
+    });

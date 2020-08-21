@@ -185,6 +185,63 @@ footer{
       margin: 7px
   }
 
+  /* 2carsol */
+
+.mainslider{
+    width: 100%;
+    height: auto;
+    /* background-color: brown; */
+}
+.slickslider1{
+    width: 90%;
+    height:auto;
+    /* background-color: chartreuse; */
+    margin: 0 auto;
+}
+.slickslider1 .item{
+   text-align: center;
+   line-height: auto;
+   /* background-color: chocolate; */
+   margin:  0px 0px;
+}
+.carsol{
+    width: 95%;
+    margin: 0 auto;
+    /* background-color: cyan; */
+}
+.carsol img{
+    width: 100%;
+     
+}
+/* .marginc{
+    
+    bottom: 10px;
+    left: 20%;
+}
+.carsol span{
+    justify-content: start;
+    top: 70%;
+}
+.marginc{
+    justify-content: center;
+} */
+element.style {
+    width: 545px;
+}
+.slickslider .item {
+    text-align: center;
+    /* line-height: 500px; */
+    /* background-color: chocolate; */
+    margin: 0px 0px;
+}
+.slick-initialized .slick-slide {
+    display: block;
+}
+.slick-slide {
+    min-height: 0;
+}
+/*  */
+
 
   @media(max-width: 992px){
     .match_img{
