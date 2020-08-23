@@ -1,274 +1,145 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif "poppins", sans-serif;
-    overflow-x: hidden;
-     
-}
-.logo{
-    font-weight: bold;
-    font-size: 35px;
-}
 .icons{
-    display: flex;
-    align-items: center;
-    
+  display: flex;
+  align-items: center;
+  
 }
 .icons i{
-    font-size: 30px;
-    padding-right: 13px;
+  font-size: 30px;
+  padding-right: 13px;
 }
 .count{
-    width: 20px;
-    height: 20px;
-     top: -8px;
-    border-radius: 50%;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  width: 20px;
+  height: 20px;
+   top: -8px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 
 }
 .log li{
-    padding: 0;
-    line-height: 0;
-    font-weight: bold;
-    
+  padding: 0;
+  line-height: 0;
+  font-weight: bold;
+  font-size: 20px;
 }
-.category-img{
-    width: 60%;
+ 
 
+ 
+.slider .categories h4{
+  padding: 30px ;
 }
-.carsoul-img{
-    height: 500px;;
+.slider {
+  padding: 50px 0 0 0;
 }
-.text-carsoul{
-     bottom: 20px;
+
+.slider .search {
+  padding-bottom: 10px;
 }
-.bg-none{
-    background-color:transparent;
+
+.slider .search .menu {
+  position: relative;
+  top: 6px;
+  font-size: 17px;
+  right: 16px;
 }
-.space{
-    margin-top: 60px;
-    margin-bottom:60px ;
+
+.slider .search button {
+  background-color: #c95019;
+  color: #fff;
 }
-.mar{
-    margin-bottom: 50px;
+
+.slider .categories h4 {
+  text-align: center;
+  color: #000;
+  padding-top: 30px;
 }
-.slick-slide{
-    width: 271px;
-   margin: 0 auto;
-    
+
+.slider .categories .cat-name {
+  color: #000;
+  padding-bottom: 10px;
 }
- .con{
-     width: 207px;
- }
-img{
-    width: 100%;
-     
-}
-.con img{
-    width: 186px;
-    height: 186px;
-}
-.slick-prev:before, .slick-next:before {
-    color: rgb(214, 214, 213);
-    font-size: 28px;
-}
-.text-carsol{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.category-text {
-   margin: 25px 0;
-}
-.pos{
-    position: relative;
-     
-}
-.pos h6{
-    font-size: 22px;
-}
-.pos span{
-    font-size: 20px;
-    color: orange;
-}
-.desc{
-    top: 0;
-    right: 0;
-    position: absolute;
-}
-.wrapper{
-    margin-bottom: 40px;
-}
+
 footer{
-    margin-top:-10px;
-	padding-top: 23px;
-	background-color: rgb(240, 235, 235);
-	height: 350px;
+  margin-top:-10px;
+padding-top: 23px;
+background-color: rgb(240, 235, 235);
+height:auto;
 }
 .p-foo{
-    font-size: 20px;
-    color: #999;
-    padding: 23px 0 10px 0;
- }
- 
- 
+  font-size: 20px;
+  color: #999;
+  padding: 23px 0 10px 0;
+}
+
+
 .link {
-	color: #999;
-	font-family: 'Roboto';
-    text-align: center;
-    padding: 5px;
-	text-transform: capitalize;
-	font-size: 16px;
+color: #999;
+font-family: 'Roboto';
+  text-align: center;
+  padding: 5px;
+text-transform: capitalize;
+font-size: 16px;
 }
 /* .paragraph{
-	color: #fff;
-	text-align: center;
-	 */
-	
+color: #fff;
+text-align: center;
+ */
+
 
 .footer-img{
-    margin-right:15px;
-    width: 35px;
-    height: 35px;
+  margin-right:15px;
+  width: 35px;
+  height: 35px;
 }
- 
- 
+
+
 
 .link:hover{
-	text-decoration: none;
-	color: rgb(224, 221, 40)
+text-decoration: none;
+color: rgb(224, 221, 40)
 }
 
-/* html, body{
-    background: rgb(228, 165, 165);
-  } */
-  .con{
-      /* 28px */
-
-      /* margin:  21px; */
-        width:177px;
-        margin: 0px auto;
-        
-       
-  }
-  
-  /* 100 100 */
- .con img{
-     width: 170px;
-     height: 170px;
- }
- 
-
-  .slider{
-     width:350px;
-    margin:20px auto;
-    text-align: center;
-    /* padding:20px; */
-    color:white;
-   }
-  .match{
-      background-color: rgb(255, 255, 255);
-      width: 90%;
-      height: 450px;
-      text-align : center;
-      padding-top: 20px;
-      margin-left: 0;
-      margin-left: -27px;
-      /* display: flex;
-      justify-content: center;
-      align-items: center; */
-  }
-  .match span{
-      margin: 7px
-  }
-
-  /* 2carsol */
-
-.mainslider{
-    width: 100%;
-    height: auto;
-    /* background-color: brown; */
-}
-.slickslider1{
-    width: 90%;
-    height:auto;
-    /* background-color: chartreuse; */
-    margin: 0 auto;
-}
-.slickslider1 .item{
-   text-align: center;
-   line-height: auto;
-   /* background-color: chocolate; */
-   margin:  0px 0px;
-}
-.carsol{
-    width: 95%;
-    margin: 0 auto;
-    /* background-color: cyan; */
-}
-.carsol img{
-    width: 100%;
-     
-}
-/* .marginc{
-    
-    bottom: 10px;
-    left: 20%;
-}
-.carsol span{
-    justify-content: start;
-    top: 70%;
-}
-.marginc{
-    justify-content: center;
-} */
-element.style {
-    width: 545px;
-}
-.slickslider .item {
-    text-align: center;
-    /* line-height: 500px; */
-    /* background-color: chocolate; */
-    margin: 0px 0px;
-}
-.slick-initialized .slick-slide {
+@media (max-width: 768px) {
+  .slider .categories .owl-carousel .owl-nav {
     display: block;
-}
-.slick-slide {
-    min-height: 0;
-}
-/*  */
-
-
-  @media(max-width: 992px){
-    .match_img{
-        display: none;
-    }
-}
-
-  
-@media(max-width: 768px){
-    .match_img{
-        display: none;
-    }   
-    .category-img{
-        width: 50%;
-        
-    }
-    .cate{
-        display: none;
-    }
-    footer{
-        height: 470px;
-    }
-    /* .logo{
-        font-size: 30px;
-    }
-    .icons{
-      margin-top: -35px;  
-    } */
+  }
+  .slider .categories .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: 50px;
+    top: 22px;
+    font-size: 46px;
+  }
+  .slider .categories .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: 50px;
+    top: 22px;
+    font-size: 46px;
+  }
 }
 
+.slider .categories .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slider .categories .item .card {
+  width: 250px;
+  border: 0;
+}
+
+.slider .categories .item .card .card-title {
+  font-weight: bold;
+}
+
+.slider .categories .item .card .card-text {
+  position: absolute;
+  right: 18px;
+  bottom: 28px;
+  color: #aa491c;
+}
+/*# sourceMappingURL=style.css.map */
