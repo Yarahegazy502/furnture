@@ -19,3 +19,34 @@ $(document).ready(function () {
         }
     });
 });
+// var btn = document.querySelector("bbb");
+// btn.addEventListener("click",function(){
+//     var header = document.getElementById("categories");
+//     var btns = header.getElementsByClassName("active1");
+//     for (var i = 0; i < btns.length; i++) {
+//       btns[i].addEventListener("click", function() {
+//       var current = document.getElementsByClassName("activve");
+//       if (current.length > 0) { 
+//         current[0].className = current[0].className.replace(" activve", "");
+//       }
+//       this.className += " activve";
+//       });
+//     }
+    
+// })
+
+
+// var b = document.getElementById("bbb");
+// b.addEventListener('click',function(){
+    var header = document.getElementById("categories");
+    var btns = header.getElementsByClassName("active1");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("activve");
+      if (current.length > 0) { 
+        current[0].className = current[0].className.replace(" activve", "");
+      }
+      this.className += " activve";
+      });
+
+    } 
